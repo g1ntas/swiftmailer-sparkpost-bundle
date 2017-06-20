@@ -1,0 +1,17 @@
+framework:
+    secret: ThisIsNotReallyASecretSoPleaseChangeIt
+
+gintko_swiftmailer_sparkpost:
+    api_key: 'SparkPostApiKey'
+    ip_pool_probability: 0.5
+    recipient_override:
+        email: 'test@test.com'
+        gmail_style: true
+    message_options:
+        transactional: false
+        open_tracking: true
+        click_tracking: true
+        sandbox: true
+        skip_suppression: true
+        inline_css: true
+        ip_pool: 'ip-pool'
