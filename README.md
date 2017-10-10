@@ -1,5 +1,7 @@
 # Swiftmailer Sparkpost bundle
 
+[![Build Status](https://travis-ci.org/g1ntas/swiftmailer-sparkpost-bundle.svg?branch=master)](https://travis-ci.org/g1ntas/swiftmailer-sparkpost-bundle)
+
 This bundle adds an extra transport to the Swiftmailer service that uses Sparkpost API.
 Internally this bundle integrates 
 [f500/swiftmailer-sparkpost](https://github.com/f500/swiftmailer-sparkpost) to
