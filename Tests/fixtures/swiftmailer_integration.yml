@@ -6,7 +6,3 @@ swiftmailer:
     host: null
     username: null
     password: null
-    port: null
-    auth_mode: null
-    encryption: null
-    sender_address:  null

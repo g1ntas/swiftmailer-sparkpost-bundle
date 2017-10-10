@@ -49,5 +49,6 @@ class GintkoSwiftmailerSparkpostExtension extends Extension
 
         // set alias for sparkpost swiftmailer transport
         $container->setAlias('swiftmailer.mailer.transport.sparkpost', 'gintko.swiftmailer.transport.sparkpost');
+        $container->setAlias('sparkpost', 'gintko.swiftmailer.transport.sparkpost');
     }
 }

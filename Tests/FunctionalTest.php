@@ -62,9 +62,9 @@ class FunctionalTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceof('SwiftSparkPost\Configuration', $config);
 
         // transport alias
-        $this->assertTrue($container->has('swiftmailer.mailer.transport.sparkpost'), 'The transport alias for SparkPost is available.');
+        $this->assertTrue($container->has('sparkpost'), 'The transport alias for SparkPost is available.');
 
-        $transportAlias = $container->get('swiftmailer.mailer.transport.sparkpost');
+        $transportAlias = $container->get('sparkpost');
 
         $this->assertInstanceof('SwiftSparkPost\Transport', $transportAlias);
         $this->assertSame($transport, $transportAlias);

@@ -104,7 +104,7 @@ public function sendEmailAction()
     
     $mailer = $this->get('mailer');
     
-    $message = SwiftSparkPost\Message::newInstance()
+    $message = $mailer->createMessage('sparkpost')
         ->setFrom('me@domain.com', 'Me')
         ->setTo(['john@doe.com' => 'John Doe', 'jane@doe.com'])
         ->setSubject('...')
